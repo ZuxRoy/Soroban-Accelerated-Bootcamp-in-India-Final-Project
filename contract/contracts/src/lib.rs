@@ -27,5 +27,3 @@ impl FileShare {
         env.storage().persistent().get::<Address, Files>(&user)
     }
 }
-
-mod test;
